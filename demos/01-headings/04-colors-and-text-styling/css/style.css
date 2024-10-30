@@ -1,0 +1,38 @@
+#first-paragraph {
+    color: yellowgreen;
+    background: black;
+    font-style: italic;
+    text-align: right;
+}
+
+#second-paragraph {
+    color: #228b22;
+    background:  lightgreen;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background: yellowgreen;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+#span1 {
+    color:lightseagreen;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+#span2 {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#span3{
+    background-color: rgb(210, 210, 92);
+}
+
+#span4 {
+    text-align: right;
+}
