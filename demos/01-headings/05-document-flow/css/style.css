@@ -1,0 +1,18 @@
+.narrow {
+    width: 200px;
+    background-color: lightcoral;
+    display: inline-block;
+}
+
+#narrow {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 200px;
+}
+
+#narrow {
+    background-color: goldenrod;
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}
