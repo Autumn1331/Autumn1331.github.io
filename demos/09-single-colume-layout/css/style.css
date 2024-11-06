@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-colume {
+    /*background-color: rgb(234, 124, 234);*/
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.light-container {
+    background-color: rgb(228, 20, 228);
+    padding: 48px 0px;
+}
+
+.dark-container {
+    background-color: purple;
+    padding: 48px 0px;
+    color: white;
+}
