@@ -47,7 +47,7 @@ img {
 }
 
 #fake-button {
-    background-color: blue;
+    background-color: rgb(52, 114, 249);
     padding: 12px;
     border-radius: 24px;
     text-align: center;
@@ -62,7 +62,17 @@ img {
 }
 
 #fake-button-2 {
-    background-color: aliceblue;
+    background-color: lightblue;
+    padding: 12px;
+    border-radius: 24px;
+    text-align: center;
+    margin: 12px;
+    display: inline-block;
+    min-width: 200px;
+}
+
+#fake-button-3 {
+    background-color: rgb(184, 220, 242);
     padding: 12px;
     border-radius: 24px;
     text-align: center;
