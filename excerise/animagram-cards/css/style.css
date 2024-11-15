@@ -1,0 +1,47 @@
+.card-style-2 {
+    max-width: 350px;
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    border-radius: 33px;
+}
+
+.card-style-2 img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 13px 68px;
+}
+
+.card-style-2 .animagram-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    align-items: center;
+}
+
+.card-style-2 .logo {
+    margin:0px; 
+}
+
+.card-style-2 h2{
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    padding: -3px 0px;
+}
+
+.card-style-2 p{
+    font-size: 17px;
+    padding: 0px 25px;
+    text-align: center;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 25px;
+    align-items: center;
+}
