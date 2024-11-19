@@ -24,3 +24,29 @@ body {
 .basic-grid-gallery img {
     width: 100%;
 }
+
+#hero {
+    background-image: url("../images/hero.jpg");
+    height: 300vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+#hero .hero-content {
+    text-align: right;
+    color: rgb(2, 2, 2);
+    padding: 60px 100px;
+}
+
+#hero h2 {
+    font-size: 120px;
+    margin-bottom: 60px;
+}
+
+#hero h4 {
+    font-size: 48px;
+}
