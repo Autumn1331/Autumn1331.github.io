@@ -50,10 +50,37 @@ body {
 }
 
 #hero-1 h1 {
-    font-size: 120px; 
+    font-size: 100px; 
     padding-left: 100px;
 }
 
-#contact-info {
-    background: linear-gradient(to bottom, rgb(206, 124, 35), 
-    rgb(90, 147, 90))
+#hero-5 {
+    background-image: url("../images/info-img.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+#hero-5 .hero-content {
+    text-align: right;
+    color: white;
+    padding: 50px 100px;
+}
+
+#hero-5 p{
+    font-size: 36px;
+    color:  white;
+}
+
+#hero-5 h2 {
+    font-size: 78px;
+    margin-bottom: 60px;
+}
+
+#hero-5 h4 {
+    font-size: 78px;
+}
