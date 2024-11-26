@@ -219,9 +219,15 @@ a {
         align-items: center;
     }
 
+    #hero h1 {
+        font-size: 38px;
+    }
+    
+    #hero h3 {
+        font-size: 15px;
+    }
+
     .three-cards {
-        display: flex;
         flex-direction: column;
-        align-items: center;
     }
 }
