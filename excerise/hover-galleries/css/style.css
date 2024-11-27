@@ -20,6 +20,8 @@ body {
     padding: 24px;
     border-radius: 12px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .card a {
@@ -31,9 +33,195 @@ body {
     margin-top: 36px;
 }
 
-#neon-card1:hover {
+#color-card1:hover {
     background-color: red;
     box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#color-card1 {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#color-card1:hover a {
+    background-color: rgb(22, 202, 22);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#color-card2 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#color-card2:hover {
+    background-color: rgb(22, 202, 22);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#color-card2:hover a {
+    background-color: red;
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#color-card3 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#color-card3:hover {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#color-card3:hover a {
+    background-color: rgb(8, 230, 238);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#color-card4 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#color-card4:hover {
+    background-color: rgb(8, 230, 238);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#color-card4:hover a {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#color-card5 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#color-card5:hover {
+    background-color: rgb(255, 179, 0);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#color-card5:hover a {
+    background-color: rgb(224, 15, 224);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#color-card6 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#color-card6:hover {
+    background-color: rgb(224, 15, 224);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#color-card6:hover a {
+    background-color: rgb(255, 179, 0);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#button-card1 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#button-card1:hover a {
+    background-color: red;
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#button-card2 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#button-card2:hover a {
+    background-color: rgb(22, 202, 22);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#button-card3 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#button-card3:hover a {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#button-card4 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#button-card4:hover a {
+    background-color: rgb(8, 230, 238);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#button-card5 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#button-card5:hover a {
+    background-color: rgb(255, 179, 0);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#button-card6 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#button-card6:hover a {
+    background-color: rgb(224, 15, 224);
+    box-shadow: 4px 4px 4px 00000033;
     transform: translateY(-4px);
 }
 
@@ -42,12 +230,36 @@ body {
         background-color 0.5s,
         box-shaddow 0.5s,
         transform 0.5s;
+        text-shadow: 1px 1px 2px, 0 0 1em red
+        , 0 0 0.2em red;
 }
 
 #neon-card1:hover a {
+    background-color: red;
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px);
+}
+
+#neon-card1 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#neon-card2 {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+        text-shadow: 1px 1px 2px, 0 0 1em rgb(22, 202, 22)
+        , 0 0 0.2em rgb(22, 202, 22);
+}
+
+#neon-card2:hover a {
     background-color: rgb(22, 202, 22);
     box-shadow: 4px 4px 4px 00000033;
-    transform: translateY(-4px)
+    transform: translateY(-4px);
 }
 
 #neon-card2 a {
@@ -57,16 +269,19 @@ body {
         transform 0.5s;
 }
 
-#neon-card2:hover {
-    background-color: rgb(22, 202, 22);
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
+#neon-card3 {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+        text-shadow: 1px 1px 2px, 0 0 1em yellow
+        , 0 0 0.2em yellow;
 }
 
-#neon-card2:hover a {
-    background-color: red;
+#neon-card3:hover a {
+    background-color: yellow;
     box-shadow: 4px 4px 4px 00000033;
-    transform: translateY(-4px)
+    transform: translateY(-4px);
 }
 
 #neon-card3 a {
@@ -76,18 +291,6 @@ body {
         transform 0.5s;
 }
 
-#neon-card3:hover {
-    background-color: yellow;
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
-}
-
-#neon-card3:hover a {
-    background-color: rgb(8, 230, 238);
-    box-shadow: 4px 4px 4px 00000033;
-    transform: translateY(-4px)
-}
-
 #neon-card4 a {
     transition: 
         background-color 0.5s,
@@ -95,16 +298,19 @@ body {
         transform 0.5s;
 }
 
-#neon-card4:hover {
-    background-color: rgb(8, 230, 238);
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
+#neon-card4 {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+        text-shadow: 1px 1px 2px, 0 0 1em rgb(8, 230, 238)
+        , 0 0 0.2em rgb(8, 230, 238);
 }
 
 #neon-card4:hover a {
-    background-color: yellow;
+    background-color: rgb(8, 230, 238);
     box-shadow: 4px 4px 4px 00000033;
-    transform: translateY(-4px)
+    transform: translateY(-4px);
 }
 
 #neon-card5 a {
@@ -114,16 +320,19 @@ body {
         transform 0.5s;
 }
 
-#neon-card5:hover {
-    background-color: rgb(255, 179, 0);
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
+#neon-card5 {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+        text-shadow: 1px 1px 2px, 0 0 1em rgb(255, 179, 0)
+        , 0 0 0.2em rgb(255, 179, 0);
 }
 
 #neon-card5:hover a {
-    background-color: rgb(224, 15, 224);
+    background-color: rgb(255, 179, 0);
     box-shadow: 4px 4px 4px 00000033;
-    transform: translateY(-4px)
+    transform: translateY(-4px);
 }
 
 #neon-card6 a {
@@ -133,14 +342,17 @@ body {
         transform 0.5s;
 }
 
-#neon-card6:hover {
-    background-color: rgb(224, 15, 224);
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
+#neon-card6 {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+        text-shadow: 1px 1px 2px, 0 0 1em rgb(224, 15, 224)
+        , 0 0 0.2em rgb(224, 15, 224);
 }
 
 #neon-card6:hover a {
-    background-color: rgb(255, 179, 0);
+    background-color: rgb(224, 15, 224);
     box-shadow: 4px 4px 4px 00000033;
-    transform: translateY(-4px)
+    transform: translateY(-4px);
 }
