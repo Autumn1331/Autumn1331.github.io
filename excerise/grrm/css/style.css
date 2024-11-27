@@ -455,15 +455,23 @@ body {
             "card-1  card-2  card-3"
             "aside   blog    blog"
             "footer  footer  footer"
-            "bottom  bottom  bottom";
+            "bottom  bottom  bottom"
+            header
+            navbar
+            banner
+            card-
     }
 
     #header h1 {
         font-size: 50px;
     }
 
-    .wrap {
+    #nav {
         flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 200px;
     }
 }
 
