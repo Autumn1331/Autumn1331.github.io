@@ -44,6 +44,12 @@ body {
         transform 0.5s;
 }
 
+#neon-card1:hover a {
+    background-color: rgb(22, 202, 22);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
 #neon-card2 a {
     transition: 
         background-color 0.5s,
@@ -51,63 +57,90 @@ body {
         transform 0.5s;
 }
 
-#neon-card2:hover a {
+#neon-card2:hover {
     background-color: rgb(22, 202, 22);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#neon-card2:hover a {
+    background-color: red;
     box-shadow: 4px 4px 4px 00000033;
     transform: translateY(-4px)
 }
 
-#neon-card3 .card-content {
-    transition:
-        opacity 0.5s,
-        visibility 0.5s;
-}
-
-#neon-card3:hover .card-content {
-    opacity: 0;
-    visibility: hidden;
-}
-
-#neon-card4 .card-content {
-    opacity: 0;
-    visibility: hidden;
-    transformY(-8px)
+#neon-card3 a {
     transition: 
-        opacity 0.5s,
-        visibility 0.5s,
-        transform: 0.5s;
-}
-
-#neon-card4:hover .card-content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px);
-}
-
-#neon-card5 {
-    position: relative;
-}
-
-#neon-card5 .card-content {
-    position: absolute;
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 12px;
-    box-shadow: 4px 4px 4px #00000033;
-    left: 0px;
-    margin: 0px 24px;
-    padding: 24px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px);
-    transition:
-        opacity 0.5s,
-        visibility 0.5s,
+        background-color 0.5s,
+        box-shaddow 0.5s,
         transform 0.5s;
 }
 
-#neon-card5:hover .card-content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px);
+#neon-card3:hover {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#neon-card3:hover a {
+    background-color: rgb(8, 230, 238);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#neon-card4 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#neon-card4:hover {
+    background-color: rgb(8, 230, 238);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#neon-card4:hover a {
+    background-color: yellow;
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#neon-card5 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#neon-card5:hover {
+    background-color: rgb(255, 179, 0);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#neon-card5:hover a {
+    background-color: rgb(224, 15, 224);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
+}
+
+#neon-card6 a {
+    transition: 
+        background-color 0.5s,
+        box-shaddow 0.5s,
+        transform 0.5s;
+}
+
+#neon-card6:hover {
+    background-color: rgb(224, 15, 224);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#neon-card6:hover a {
+    background-color: rgb(255, 179, 0);
+    box-shadow: 4px 4px 4px 00000033;
+    transform: translateY(-4px)
 }
