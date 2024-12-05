@@ -164,3 +164,10 @@ body {
     margin-right: 12px;
     margin-left: 12px;
 }
+
+@media screen and (max-width: 550px) {
+    #navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+}
