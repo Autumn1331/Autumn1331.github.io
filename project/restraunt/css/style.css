@@ -95,12 +95,137 @@ body {
     padding: 0px;
     border: 10px solid #333333;
     grid-auto-rows: 200px;
-
 }
 
 .cropped-grid-gallery img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
-.
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.appitizers-items {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.appitizers-items .image-container {
+    flex: 1;
+}
+
+.appitizers-items .image-container img {
+    width: 100%;
+    
+}
+
+.appitizers-items .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+#main-section {
+    text-align: center;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.meals-items {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.meals-items .image-container {
+    flex: 1;
+}
+
+.meals-items .image-container img {
+    width: 100%;
+}
+
+.meals-items .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+#main-section {
+    text-align: center;
+}
+
+#layout {
+    width: 500px;
+    margin: 0px auto;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+form {
+    background-color: white;
+    padding: 36px;
+    border: 2px solid #CCCCCC;
+    border-radius: 2px;
+}
+
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 16px;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #0e6de1;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    min-width: 75px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
+
+@media screen and (max-width: 872px) {
+    #navbar-bottom .content-column {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cropped-grid-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

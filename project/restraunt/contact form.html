@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar-top">
+            <div class="content-column">
+                <a href="#" id="name">
+                    <img 
+                        src="images/Autumn_logo.png" 
+                        arc="logo"
+                    >
+                <a href="mixed" class="cta-buttom">View Customer Wall Gallery</a>
+            </div>
+        </div>
+        <div id="navbar-bottom">
+            <div class="content-column">
+                <a href="#">Menu</a>
+                <a href="#">Specials</a>
+                <a href="#">Location</a>
+                <a href="#">Aout Us</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div id="layout">
+            <header>
+                <h1>Contact Us</h1>
+                <p>
+                    Got a question? 
+                    We'd love to hear from you. 
+                    Send us a message and we'll
+                    respond as soon as possible.
+                </p>
+            </header>
+            <main>
+                <form 
+                    method="POST" 
+                    action="https://getform.io/f/599c2b13-fd57-44e4-95a1-2c722b05c5e8"
+                >
+                    <div>
+                        <label for="services_id">
+                            What can we help you with?
+                        </label>
+                        <select id="services_id" name="service_selection">
+                            <option 
+                                id="default_option" 
+                                value="none" 
+                                disabled
+                                selected
+                            >
+                                Select what we can help you with
+                            </option>
+                            <option value="gardening">
+                                Gardening
+                            </option>
+                            <option value="coding">
+                                Coding
+                            </option>
+                            <option value="web dev">
+                                Web Development
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="name_id">Name</label>
+                        <input 
+                            type="text" 
+                            id="name_id" 
+                            name="name" 
+                            required 
+                            minlength="2"
+                            placeholder="E.g. John Smith"
+                        >
+                    </div>
+                    <div>
+                        <label for="email_id">Email</label>
+                        <input 
+                            type="email" 
+                            id="email_id" 
+                            name="email"
+                            required
+                            placeholder="E.g. jane.doe@gmail.com"
+                        >
+                    </div>
+                    <div>
+                        <label for="message_id">Message</label>
+                        <textarea 
+                            id="message_id" 
+                            name="message"
+                            placeholder="I would like you to..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
