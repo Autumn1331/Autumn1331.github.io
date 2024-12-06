@@ -10,6 +10,7 @@ body {
 .content-column {
     width: 800px;
     margin: 0px auto;
+    padding: -20px;
 }
 
 #navbar-top {
@@ -123,16 +124,18 @@ body {
 
 .appitizers-items .image-container {
     flex: 1;
+    margin-left: 12px;
+    margin-right: 12px;
+
 }
 
 .appitizers-items .image-container img {
-    width: 100%;
-    
+    width: 50%;
 }
 
 .appitizers-items .text-container {
     flex: 1;
-    padding: 36px;
+    padding: 10px;
 }
 
 #main-section {
@@ -156,7 +159,7 @@ body {
 }
 
 .meals-items .image-container img {
-    width: 100%;
+    width: 50%;
 }
 
 .meals-items .text-container {
