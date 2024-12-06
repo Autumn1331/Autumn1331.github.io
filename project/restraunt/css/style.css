@@ -78,9 +78,15 @@ body {
     margin-bottom: 100px;
 }
 
-#hero-1 h1 {
-    font-size: 100%; 
+#hero-1 h2 {
+    font-size: 68px; 
     padding-left: 100px;
+}
+
+#hero-1 p {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
 }
 
 #layout {
