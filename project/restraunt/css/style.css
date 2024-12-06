@@ -126,11 +126,13 @@ body {
     flex: 1;
     margin-left: 12px;
     margin-right: 12px;
-
+    height: 300px;
 }
 
 .appitizers-items .image-container img {
-    width: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .appitizers-items .text-container {
@@ -156,10 +158,13 @@ body {
 
 .meals-items .image-container {
     flex: 1;
+    height: 300px;
 }
 
 .meals-items .image-container img {
-    width: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .meals-items .text-container {
