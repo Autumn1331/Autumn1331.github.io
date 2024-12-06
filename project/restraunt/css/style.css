@@ -14,7 +14,7 @@ body {
 }
 
 #navbar-top {
-    background-color: darkcyan;
+    background-color: green;
 }
 
 #navbar-top .content-column {
@@ -53,8 +53,8 @@ body {
 }
 
 #navbar-bottom {
-    background: linear-gradient(to bottom, rgb(198, 70, 70),
-     rgb(71, 154, 244));
+    background: linear-gradient(to bottom, rgb(157, 19, 19),
+     rgb(241, 27, 12));
 }
 
 #navbar-bottom .content-column {
