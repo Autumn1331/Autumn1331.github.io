@@ -254,6 +254,29 @@ input[type=submit] {
     min-width: 75px;
 }
 
+#footer {
+    background: linear-gradient(to bottom, red, rgb(6, 205, 6));
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
 
 @media screen and (max-width: 872px) {
     #navbar-bottom .content-column {
