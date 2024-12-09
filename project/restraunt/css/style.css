@@ -129,6 +129,15 @@ body {
     margin: 48px 0px;
 }
 
+.appitizers-items a {
+    border: 3px solid black;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
 .appitizers-items .image-container {
     flex: 1;
     margin-left: 12px;
@@ -161,6 +170,15 @@ body {
     display: flex;
     align-items: center;
     margin: 48px 0px;
+}
+
+.meals-items a {
+    border: 3px solid black;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 .meals-items .image-container {
