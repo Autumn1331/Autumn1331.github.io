@@ -46,26 +46,24 @@ function reactToMoveRightButton() {
 }
 
 function reactToMoveLeftButton() {
-
+    moveLeft (1);
 }
 
 function reactToMoveDownButton() {
     jumpDown(2);
-    jumpDown (6);
 }
 
 function reactToMoveUpButton() {
-
+    moveUp(1);
 }
 
 function reactToAttackButton() {
-    Attack ()
+    attack(1);
 }
 
 function reactToJumpRightButton() {
-    jumpRight(3);
-    jumpRight (2);
-    jumpRight (4);
+    jumpRight(1);
+
 }
 
 function reactToJumpLeftButton() {
@@ -77,9 +75,9 @@ function reactToJumpDownButton() {
 }
 
 function reactToJumpUpButton() {
-
+    jumpUp(1);
 }
 
 function reactToJumpButton() {
-
+    jump(1);
 }
